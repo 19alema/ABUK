@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Tangerine:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Milonga;
+    font-size: 14px;
+}
+
+#button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #4ae;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: 'Milonga',
+    cursive;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+p {
+    font-weight: bold;
+    color: #fff;
+    background: -webkit-linear-gradient(#ffff00, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: A 3s infinite ease-in-out;
+    font-size: 1.1rem;
+}
+
+@-webkit-keyframes A {
+    0% {
+        -webkit-filter: A-rotate(0deg);
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        -webkit-filter: A-rotate(360deg);
+        transform: scale(1.2) rotate(5deg);
+    }
+}
+
+
+#container {
+    width: 300px;
+    margin: auto;
+    border: 2px solid #ccc;
+    padding: 0 20px 20px 20px;
+    background: #F7819F;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 4px #FF6347, 0 0 10px 30px #FFDAB9, 30px 0 20px 30px #B0E0E6;
+    background-image: url("https://dl.dropbox.com/s/0fwuiqo590s5vte/1179449.gif");
+
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+    animation: lp 10s linear infinite;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+
+@keyframes lp {
+    fromm {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+.msg {
+    width: 300px;
+    height: 100px;
+    background-color: #E370B7;
+    box-shadow: inset 10px 10px 5px #C71582, inset -10px -10px 5px #C71582;
+    -webkit-transform: scale(0.8);
+    animation: beat 1.3s infinite ease-in-out;
+}
+
+.msg h5 {
+    font-size: 16px;
+    padding: 6px 8px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+@-webkit-keyframes beat {
+    0% {
+        -webkit-transform: scale(0.8);
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+    }
+}
+
+footer {
+    float: right;
+    color: #777;
+}
+
+.head {
+    margin: 3rem 0;
+    animation: c infinite .3s;
+}
+
+@-webkit-keyframes c {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: Blue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: hotPink;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: yellow;
+    }
+
+    100% {
+        color: orange;
+    }
+}
